@@ -1,0 +1,1082 @@
+.TitleStyle {
+    color: white;
+    font-family: "Major Mono Display", sans-serif;
+    margin-left: 120px;
+    margin-top: 30px;
+    font-size: 40px;
+    display: inline-flex;
+}
+
+#HRvertical {
+    width: 40px;
+    height: 60px;
+    margin-left: 50px;
+    position: relative;
+    display: inline-flex;
+}
+
+#PAPERstyle {
+    background-color: white;
+    height: 40px;
+    color: black;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    border-left: 5px solid white;
+}
+
+.LINKBUTTONstyle {
+    background-color: white;
+    color: black;
+    width: 107px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    outline: 5px solid white;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Zalando Sans Expanded", sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 22px;
+    margin-left: 50px;
+    padding-left: 22px;
+    transition: ease 0.12s, font-weight 0.26s, outline-width 0.02s;
+    display: inline-flex;
+    scale: calc(0.7);
+}
+
+.LINKBUTTONstyle:hover {
+    outline-width: 11px;
+    outline-style: double;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.LINKBUTTONstyle:active {
+    background-color: white;
+    color: black;
+    outline-width: 2px;
+}
+
+.HeaderStyle {
+    background-color: rgba(0, 0, 0, 0.623);
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px black;
+    padding: 1px;
+    padding-right: 15px;
+    margin-top: -8px;
+    margin-left: -8px;
+    box-shadow: 0 0 15px black;
+    position: fixed;
+    display: inline-flex;
+    z-index: 2;
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.315);
+}
+
+.Blur-Background-Effect {
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(16px);
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    padding: 1px;
+    padding-right: 15px;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+.AIRE {
+    width: 100%;
+    height: 83px;
+    padding: 1px;
+    padding-right: 15px;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+.Image-Central {
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.2;
+    filter: saturate(0%);
+    box-shadow: 0 0 40px rgb(0, 0, 0), 0 0 9px white;
+    border-bottom: 15px solid rgb(20, 20, 20);
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+    -webkit-user-drag: none;
+    user-select: none;
+    position: absolute;
+    margin: -8px;
+}
+
+#line-style-top {
+    width: 2px;
+    height: 52px;
+    position: absolute;
+    background-color: white;
+    margin-top: 22px;
+    margin-left: 18px;
+}
+
+#CONTENIDO_CENTRAL_TOP {
+    background-color: transparent;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#Centralizador-central-top {
+    margin: 0 auto;
+    width: 1888px;
+}
+
+#body {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+#div-top-nuevotelefono {
+    background-color: transparent;
+    margin-left: 720px;
+    margin-top: 31px;
+    width: 450px;
+}
+
+#prestetacion-text-top {
+    color: white;
+    z-index: 2;
+    margin-top: 120px;
+    letter-spacing: 5px;
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    width: 400px;
+    font-size: 24px;
+    margin-left: 25px;
+}
+
+#img-nuevo-div-h2 {
+    width: 440px;
+    margin-top: -110px;
+    margin-left: 720px;
+    border: 5px white solid;
+    position: absolute;
+    border-radius: 35px;
+    z-index: -1;
+    filter: blur(2px);
+    -webkit-mask-image: linear-gradient(black, black);
+    mask-image: linear-gradient(black, black);
+    animation-name: prender-telefono-start-anim;
+    animation-duration: 1.2s;
+}
+
+@keyframes prender-telefono-start-anim {
+    0% {opacity: 0;}
+    82% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#p-Telefono {
+    color: white;
+    font-family: "Major Mono Display", sans-serif;  
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    margin-left: 2px;
+    animation-name: text-rotate-linear-gradient;
+    animation-timing-function: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes text-rotate-linear-gradient {
+    0% {letter-spacing: 0px;}
+    100% {letter-spacing: 22px;}
+}
+
+#img-nuevo-div-h2-borroso {
+    width: 440px;
+    height: 420px;
+    margin-top: 686px;
+    filter: blur(6px);
+    transform: rotate(180deg);
+    margin-left: 720px;
+    border: 5px white double;
+    position: absolute;
+    border-radius: 35px;
+    z-index: -1;
+    -webkit-mask-image: linear-gradient(transparent, rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.199), black);
+    mask-image: linear-gradient(transparent, rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.192), black);
+    animation-name: prender-telefono-start-anim;
+    animation-duration: 1.2s;
+}
+
+#gb-p-telefono {
+    background: linear-gradient(20deg, #8fc9ff, #0a1347);
+    background-clip: text;        
+    color: transparent;
+    font-family: "Unbounded";
+    text-shadow: 0 102px #8fc9ffa4, 0 -102px #569add3f;
+    font-size: 130px;
+    margin-left: 160px;
+    margin-top: 260px;
+    letter-spacing: -16px;
+    width: 500px;
+    transform: skewY(12deg);
+}
+
+#ram-p-telefono {
+    background: linear-gradient(20deg, #98ff8f, #0a4714);
+    background-clip: text;        
+    color: transparent;
+    font-family: "Unbounded";
+    text-shadow: 0 168px #61a75b25, 0 268px #98ff8f1f;
+    font-size: 130px;
+    letter-spacing: -16px;
+    width: 590px;
+    z-index: 0;
+    transform: skewY(-15deg);
+    margin-top: 0;
+}
+
+#bateria-p-telefono {
+    background: linear-gradient(20deg, #fabfbf, #470a0a);
+    background-clip: text;        
+    color: transparent;
+    font-family: "Unbounded";
+    font-size: 130px;
+    letter-spacing: -16px;
+    width: 890px;
+    z-index: 0;
+}
+
+#Extra-Strong-style {
+    letter-spacing: -2px;
+    font-size: 25px;
+    background: linear-gradient(to right, #0066a1, #ffffff2c);
+    background-clip: text;        
+    color: transparent;
+    margin-top: -420px;
+    margin-left: 170px;
+    width: 590px;
+    height: 40px;
+    font-family: "Cascadia Mono";
+    transform: skewY(12deg);
+}
+
+#Extra-Strong-style-ram {
+    letter-spacing: 6px;
+    font-size: 25px;
+    background: linear-gradient(to right, #48a100, #ffffff2c);
+    background-clip: text;        
+    color: transparent;
+    margin-top: 70px;
+    width: 640px;
+    height: 40px;
+    font-family: "Cascadia Mono";
+    transform: skewY(-15deg);
+}
+
+
+#Extra-Strong-style-bateria {
+    letter-spacing: 6px;
+    font-size: 25px;
+    background: linear-gradient(20deg, #ff8f8f, #470a0a);   
+    background-clip: text;        
+    color: transparent;
+    transform: rotate(0deg);
+    margin-top: -120px;
+    width: 640px;
+    height: 40px;
+    font-family: "Cascadia Mono";
+}
+
+#CONTENIDO_GB {
+    margin-top: -120px;
+    width: 660px;
+    position: absolute;
+    animation-name: start-web-animation-anim;
+    animation-duration: 1.8s;
+    animation-timing-function: cubic-bezier(0.175, 0.285, 1.32, 1.275);
+}
+
+#CONTENIDO_RAM {
+    position: absolute;
+    margin-left: 1250px;
+    height: 120px;
+    animation-name: start-web-animation-anim-2;
+    animation-duration: 1.8s;
+    animation-timing-function: cubic-bezier(0.175, 0.285, 1.32, 1.275);
+}
+
+#CONTENIDO_BATERIA {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 465px;
+    height: 120px;
+    animation-name: start-web-animation-anim-3;
+    animation-duration: 1.8s;
+    animation-timing-function: cubic-bezier(0.175, 0.285, 1.32, 1.275);
+}
+
+@keyframes start-web-animation-anim {
+    0% {transform: translateY(150px); opacity: 0; filter: blur(6px);}
+    100% {transform: translateY(0px); opacity: 1; filter: blur(0px);}
+}
+
+@keyframes start-web-animation-anim-2 {
+    0% {opacity: 0;}
+    20% {transform: translateY(80px); opacity: 0; filter: blur(6px);}
+    100% {transform: translateY(0px); opacity: 1; filter: blur(0px);}
+}
+
+@keyframes start-web-animation-anim-3 {
+    0% {opacity: 0;}
+    15% {transform: translateY(-50px); opacity: 0; filter: blur(6px);}
+    100% {transform: translateY(0px); opacity: 1; filter: blur(0px);}
+}
+
+#borde-celular-style {
+    width: 440px;
+    height: 782px;
+    filter: blur(2px);
+    transform: rotate(180deg);
+    margin-left: 720px;
+    margin-top: -110px;
+    border: 5px white double;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    border-radius: 35px;
+    -webkit-mask-image: linear-gradient(black, black);
+    mask-image: linear-gradient(black, black);
+    animation-name: invisble-start-telefono-anim;
+    animation-duration: 1.2s;
+    z-index: 3;
+}
+
+@keyframes invisble-start-telefono-anim {
+    0% {opacity: 1;}
+    82% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+#hora-fictisia-celular-style {
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 90px;
+    letter-spacing: 5px;
+    font-family: "Major Mono Display", sans-serif;
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), black, black);
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), black, black);
+}
+
+#telefono-a-style {
+    font-family: "Space Mono";
+    letter-spacing: -3px;
+}
+
+#pestañeo {
+    z-index: 1;
+    animation-name: pestañeo-anim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pestañeo-anim {
+    0% {opacity: 1;}
+    92% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+#icongithub {
+    margin-left: 40px;
+    margin-top: 35px;
+    position: absolute;
+}
+
+#circle-vidrio-detalle-1 {
+    background-color: #9cff4b2a;
+    box-shadow: 0 0 85px rgba(255, 255, 255, 0.438) inset;
+    backdrop-filter: blur(6px);
+    width: 310px;
+    height: 310px;
+    margin-top: -65px;
+    transform: rotate(184deg);
+    border-radius: 90px;
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 12px;
+    z-index: 1;
+    position: absolute;
+    animation-name: movemiento-flotando-anim;
+    animation-duration: 88s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.19, 2, 0.82, 2);
+}
+
+#circle-vidrio-detalle-2 {
+    background-color: #4b8aff00;
+    box-shadow: 0 0 35px rgb(111, 173, 255) inset;
+    backdrop-filter: contrast(300%);
+    filter: contrast();
+    width: 40px;
+    height: 325px;
+    margin-top: 25px;
+    margin-left: 410px;
+    border-radius: 1910px;
+    border-bottom-left-radius: 4120px;
+    border-bottom-right-radius: 3125px;
+    border-top-left-radius: 582px;
+    z-index: 1;
+    position: absolute;
+    animation-name: movemiento-flotando-anim-2;
+    animation-duration: 58s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.19, 2, 0.82, 2);
+}
+
+#circle-vidrio-detalle-3 {
+    background-color: #ce1d1d63;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.534) inset;
+    backdrop-filter: invert(100%);
+    width: 234px;
+    height: 110px;
+    margin-top: -212px;
+    margin-left: -21px;
+    transform: rotate(180deg);
+    border-radius: 1510px;
+    border-bottom-left-radius: 4120px;
+    border-bottom-right-radius: 3125px;
+    z-index: 1;
+    position: absolute;
+}
+
+@keyframes movemiento-flotando-anim {
+    0% {margin-top: -65px; transform: skewY(-15deg);}
+    50% {margin-top: 0px; transform: skewY(-25deg);}
+    100% {margin-top: -65px; transform: skewY(-15deg);}
+}
+
+@keyframes movemiento-flotando-anim-2 {
+    0% {margin-top: 12px; transform: rotateX(45deg); transform: rotate(13deg);}
+    50% {margin-top: 22px; transform: rotateX(0deg); transform: rotateY(0deg);transform: rotate(16deg);}
+    100% {margin-top: 12px; transform: rotateX(40deg);transform: rotate(13deg);}
+}
+
+.Box-Comercio {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.411);
+    background-color: #233C67;
+    font-family: "Unbounded";
+    color: white;
+    width: 340px;
+    height: 640px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 16px;
+    cursor: pointer;
+    border: 13px solid rgb(255, 255, 255);
+    outline: 5px solid rgb(0, 0, 0);
+    background-image: linear-gradient(315deg, #cedbff, #05b2e6, #011F70, #060e20, black, black);
+    transition: all ease 0.22s, border-radius 0.6s;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.Box-Comercio:hover {
+    scale: calc(1.02);
+    outline-style: dashed;
+    border-radius: 120px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    filter: brightness(110%);   
+}
+
+#imagen-tecn-1 {
+    position: absolute;
+    width: 175px;
+    transform: rotateY(46deg);
+    filter:saturate(150%);
+}
+
+#title-div-tecn {
+    background: linear-gradient(140deg, #a6beff, #a6bbff, #2e56c5);   
+    background-clip: text;        
+    color: transparent;
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-family: "Unbounded";
+}
+
+#desc-div-tecn {
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-weight: lighter;
+}
+
+#cero-uno-text-div-tecn {
+    background: linear-gradient(140deg, #ffffff, #00000000);   
+    background-clip: text;        
+    color: transparent;
+    backdrop-filter: saturate(350%);
+    border-radius: 100%;
+    border-bottom-left-radius: 85px;
+    border-top-left-radius: 4225px;
+    border-bottom-right-radius: 4250px;
+    font-family: "Syne Mono";
+    letter-spacing: 1.2px;
+    overflow: hidden;
+    position: absolute;
+    width: 340px;
+    animation-name: border-radius-movemiento-anim;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    border: 0.1px solid white;
+    font-size: 12px;
+}
+
+@keyframes border-radius-movemiento-anim {
+    0% {border-bottom-left-radius: 85px; border-top-left-radius: 4225px; border-bottom-right-radius: 4250px; backdrop-filter: saturate(200%);}
+    10% {border-bottom-left-radius: 815px; border-top-left-radius: 1225px; border-bottom-right-radius: 4250px; border-top-right-radius: 5155px;}
+    20% {border-bottom-left-radius: 3215px; border-top-left-radius: 225px; border-bottom-right-radius: 3250px; backdrop-filter: saturate(150%);}
+    30% {border-bottom-left-radius: 1385px; border-top-left-radius: 3225px; border-bottom-right-radius: 250px;}
+    40% {border-bottom-left-radius: 2285px; border-top-left-radius: 2225px; border-bottom-right-radius: 1250px;backdrop-filter: saturate(100%);}
+    50% {border-bottom-left-radius: 885px; border-top-left-radius: 25px; border-bottom-right-radius: 5320px; backdrop-filter: saturate(50%);}
+    60% {border-bottom-left-radius: 985px; border-top-left-radius: 5425px; border-bottom-right-radius: 520px; border-top-right-radius: 2855px;}
+    70% {border-bottom-left-radius: 185px; border-top-left-radius: 2225px; border-bottom-right-radius: 4250px; backdrop-filter: saturate(250%);}
+    80% {border-bottom-left-radius: 85px; border-top-left-radius: 1225px; border-bottom-right-radius: 1250px; border-top-right-radius: 25px;}
+    90% {border-bottom-left-radius: 2485px; border-top-left-radius: 3225px; border-bottom-right-radius: 2250px; border-top-right-radius: 855px;}
+    100% {border-bottom-left-radius: 85px; border-top-left-radius: 4225px; border-bottom-right-radius: 4250px; backdrop-filter: saturate(100%);}
+}
+
+#CONTENIDO_MEDIO_ABAJO {
+    box-shadow: 0 0 15px rgb(204, 204, 204); 
+    border-radius: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: inline-flex;
+    background-color: white;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#precio-celular-style {
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    margin-top: 0px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 12px black;
+}
+
+#p-precio-style {
+    text-align: center;
+    color: white;
+    font-family: "Zalando Sans Expanded", sans-serif;
+}
+
+#p-precio-style-2 {
+    text-align: center;
+    color: black;
+    margin-top: -80px;
+    letter-spacing: 15px;
+    font-family: "Cascadia Mono";
+}
+
+@keyframes Fondo-precio-celular-Anim {
+  0% {background-position: 0% 0%;}
+  100% {background-position: -510% 0%}
+}
+
+#fondo-oscuro-CONTENIDO-TOP-1 {
+    background-color: black;
+    margin: -8px;
+    margin-left: -100%;
+    position: absolute;
+    width: 100%;
+    height: 1091px;
+    margin-top: -205px;
+    z-index: -15;
+}
+
+#fondo-oscuro-CONTENIDO-TOP-2 {
+    background-color: black;
+    margin: -8px;
+    position: absolute;
+    width: 100%;
+    height: 1091px;
+    margin-top: -205px;
+    z-index: -15;
+}
+
+.title-se-top {
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 2px;
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 70px;
+}
+
+#CONTENIDO_SEMI_TOP {
+    background-color: transparent;
+}
+
+#CONTENIDO_PRINCIPAL {
+    background-color: transparent;
+}
+
+.Box-Novedades-type-1 {
+    background-color: white;
+    width: 960px;
+    height: 460px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 0 auto;
+    transition: all ease 0.5s;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.Box-Novedades-type-2 {
+    background-color: white;
+    width: 460px;
+    height: 500px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 0px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.Box-Novedades-type-3 {
+    background-color: white;
+    width: 460px;
+    height: 500px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.Box-Novedades-type-1:hover {
+    transform: scale(1.02);
+    border-radius: 5px;
+}
+
+.Box-Novedades-type-2:hover {
+    transform: scale(1.02);
+    border-radius: 5px;
+}
+
+.Box-Novedades-type-3:hover {
+    transform: scale(1.02);
+    border-radius: 5px;
+}
+
+
+.image-novedades-producto {
+    background-image: linear-gradient(-52deg, #011f33, #e6e6e6);
+    border-radius: 20px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.425) inset;
+    padding: 10px;
+}
+
+.h2-title-novedades-div {
+    font-family: "Zalando Sans Expanded", sans-serif;
+}
+
+.desc-p-novedades-div {
+    letter-spacing: -1px;
+    font-family: "Cascadia Mono";
+}
+
+.button-comprar-novedades {
+    background-color: #00000000;
+    outline: #0071E3 solid 1px;
+    font-weight: bolder;
+    color: #0071E3;
+    border-radius: 25px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    transition: all ease 0.22s;
+}
+
+.button-comprar-novedades:hover {
+    background-color: #0071E3;
+    outline: transparent solid 1px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.button-comprar-novedades:active {
+    background-color: #00000000;
+    outline: #0071E3 solid 1px;
+    color: #0071E3;
+    scale: calc(0.95);
+}
+
+.preci-novedades-div {
+    font-weight: lighter;
+    font-family: "Cal Sans", fantasy;
+}
+
+#CONTENIDO_NOVEDADES_BOXS {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.display-horizontal-novedades-div {
+    display: inline-flex;
+}
+
+#CONTENIDO_MEDIO_TOP {
+    margin-top: 220px;
+}
+
+#marcas-move-anim-div {
+    width: 100%;
+    height: 165px;
+    background-image: url(Images/marcas.png);
+    animation-duration: 464s;
+    animation-timing-function: linear;
+    animation-name: marcas-move-anim-div;
+    animation-iteration-count: infinite;
+}
+
+@keyframes marcas-move-anim-div {
+    0% {background-position: 0% 0%;}
+    100% {background-position: 2350% 0%;}
+}
+
+.span-style{
+    background-color: #3165CF;
+    box-shadow: 0 0 25px #3166cf, 0 5px #3166cf79, 0 10px #3166cf38, 0 15px #3166cf34;
+    border-radius: 4px;
+    color: white;
+    padding: 4px;
+}
+
+.span-style-2{
+    background-image: linear-gradient(-64deg, #c743ffea, #006effee);
+    font-family: "Playfair Display", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    border-radius: 50px;
+    color: white;
+    padding: 22px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#CONTENIDO_ESPECIAL {
+    background-image: linear-gradient(164deg ,#251825, #5c2283, #0059C5, #1e2631);
+    padding: 30px;
+    margin-top: 360px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.title-especial-top-1 {
+    color: rgba(255, 255, 255, 0.493);
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-weight: lighter;
+}
+
+.title-especial-top-2 {
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 2px;
+    font-size: 55px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-weight: lighter;
+}
+
+.title-especial-top-3 {
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 70px;
+    font-weight: lighter;
+}
+
+#background-image-style-special {
+    margin: 0px;
+    display: inline-flex;
+    border-radius: 50px;
+    background-image: url(Images/cero-uno-background.png);
+    animation-duration: 165s;
+    animation-timing-function: linear;
+    animation-name: background-image-style-special-anim;
+    animation-iteration-count: infinite;
+    background-size: 250px;
+}
+
+@keyframes background-image-style-special-anim {
+    0% {background-position: 0% 0%;}
+    100% {background-position: -2350% -2350%;}
+}
+
+.button-comprar-teleportacion {
+    background-color: #00000000;
+    outline: #0071E3 solid 1px;
+    font-weight: bolder;
+    color: #ffffff;
+    width: 240px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    transition: all ease 0.22s;
+    margin: 0 auto;
+}
+
+.button-comprar-teleportacion:hover {
+    background-color: #0071E3;
+    outline: transparent solid 1px;
+    color: white;
+    letter-spacing: 0.8px;
+    font-weight: normal;
+}
+
+.button-comprar-teleportacion:active {
+    background-color: #00000000;
+    outline: #0071E3 solid 1px;
+    color: #0071E3;
+    scale: calc(0.95);
+}
+
+#Centralizador-central-abajo {
+    display: inline-flex;
+    scale: calc(0.9);
+    margin: 0 auto;
+}
+
+.Box-Comercio-2 {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.411);
+    background-color: #233C67;
+    font-family: "Unbounded";
+    color: white;
+    width: 340px;
+    height: 640px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 16px;
+    cursor: pointer;
+    border: 13px solid rgb(255, 255, 255);
+    outline: 5px solid rgb(0, 0, 0);
+    background-image: linear-gradient(315deg, #ceffd6, #05e663, #01702f, #062017, black, black);
+    transition: all ease 0.22s, border-radius 0.6s;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.Box-Comercio-2:hover {
+    scale: calc(1.02);
+    outline-style: dashed;
+    border-radius: 120px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    filter: brightness(110%);
+}
+
+#title-div-tecn-2 {
+    background: linear-gradient(140deg, #7aff3d, #dcffd4, #72ff47);   
+    background-clip: text;        
+    color: transparent;
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-family: "Unbounded";
+}
+
+.Box-Comercio-3 {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.411);
+    background-color: #233C67;
+    font-family: "Unbounded";
+    color: white;
+    width: 340px;
+    height: 640px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 16px;
+    cursor: pointer;
+    border: 13px solid rgb(255, 255, 255);
+    outline: 5px solid rgb(0, 0, 0);
+    background-image: linear-gradient(315deg, #ffeece, #e6c405, #705f01, #1f2006, black, black);
+    transition: all ease 0.22s, border-radius 0.6s;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.Box-Comercio-3:hover {
+    scale: calc(1.02);
+    outline-style: dashed;
+    border-radius: 120px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    filter: brightness(110%);
+}
+
+#title-div-tecn-3 {
+    background: linear-gradient(140deg, #ffcb3d, #fff9d4, #fff347);   
+    background-clip: text;        
+    color: transparent;
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-family: "Unbounded";
+}
+
+.Box-Vendidos {
+    background-color: black;
+    width: 50%;
+    height: 840px;
+    background-image: linear-gradient(94deg, #157210 , #093107, #030f03, #010301, transparent, transparent, #010301,#030f03, #093107, #157210);
+    cursor: pointer;
+    transition: 0.11s all ease-out;
+    scale: 0.98;
+    overflow: hidden;
+}
+
+.Box-Vendidos:hover {
+    scale: 1;
+    box-shadow: 0 0 55px #1572108f inset;
+}
+
+.image-vendidos-bottom-box-1 {
+    margin: 0 auto;
+}
+
+#CONTENIDO_SEMI_ABAJO {
+    display: inline-flex;
+}
+
+.name-producto-vendidos-box {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: "Unbounded";
+    letter-spacing: 6px;
+    padding-top: 102px;
+    font-size: 35px;
+    margin-bottom: 3px;
+}
+
+.desc-producto-vendidos-box {
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-family: "Zalando Sans Expanded", sans-serif;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 45px;
+}
+
+.div-image-vendidos-box {
+    margin: 0 auto;
+    width: 489px;
+    bottom: 0;
+    margin-top: 40px;
+}
+
+.numero-compras-vendidos-box {
+    color: white;
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), black, black);
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8 ), black, black);
+    width: 100%;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: "Questrial", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#display-horizontal-vendidos-div {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+}
+
+.Box-Vendidos-2 {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 840px;
+    background-image: linear-gradient(32deg, #e2a474, #b1c7ce, #d4e9f0);
+    cursor: pointer;
+    transition: 0.11s all ease-out;
+    scale: 0.98;
+    overflow: hidden;
+}
+
+.Box-Vendidos-2:hover {
+    scale: 1;
+}
+
+.Box-Vendidos-3 {
+    background-color: black;
+    width: 50%;
+    height: 840px;
+    background-image: linear-gradient(134deg, #5DBBDA , #16427A, #090C43, #110404,#4e110e, #B63836, #D66C6D);
+    cursor: pointer;
+    transition: 0.11s all ease-out;
+    scale: 0.98;
+    overflow: hidden;
+}
+
+.Box-Vendidos-3:hover {
+    scale: 1;
+}
+
+.Box-Vendidos-4 {
+    background-color: black;
+    width: 50%;
+    height: 840px;
+    background-image: linear-gradient(134deg, #da5d5d , #7a7316, #174309, #165353,#120e4e, #8336b6, #ca6cd6);
+    cursor: pointer;
+    transition: 0.11s all ease-out;
+    scale: 0.98;
+    overflow: hidden;
+}
+
+.Box-Vendidos-4:hover {
+    scale: 1;
+}
+
+.footer {
+    background-image: linear-gradient(164deg ,#0b110d, #05140a, #000914, #090c11);
+    padding: 30px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 510px;
+}
