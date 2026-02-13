@@ -1012,8 +1012,8 @@
 
 .numero-compras-vendidos-box {
     color: white;
-    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), black, black);
-    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8 ), black, black);
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85), black, black);
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85 ), black, black);
     width: 100%;
     letter-spacing: -1px;
     text-align: center;
